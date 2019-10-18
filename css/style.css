@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+body{
+    background-image: url(/img/weave.png);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header{
+    position: fixed;
+    background: #ccc;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+header nav a{
+    margin: 0 20px;
+    color: #384348;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px #fff;
+}
+
+header nav img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 15px;
+}
+
+header nav ul{
+    list-style-type: none;
+    list-style-position: outside;
+}
+header nav ul li{
+    display: inline-block;
+
+}
+header nav ul li a{
+    padding: 15px 20px;
+    color: #384348;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px #fff;
+    
+}
+
+header nav ul li a:hover {
+    outline: 1px dashed #999;
+    cursor: pointer;
+}
+
+main{
+    width: 80%;
+    margin: 90px auto 40px auto;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 20px -6px #333;
+    border-radius: 15px;
+    padding: 10px;
+}
+main nav{
+    width: 30%;
+    background: bisque;
+}
+main section{
+    width: 80%;
+    background: rgb(224, 255, 245);
+}
+
+footer {
+    width: 100%;
+    background: #ccc;
+    border-top;: 1px solid #ddd;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    padding: 10px;
+    border-right: 1px;
+    border-color: #efe8e8;
+}
+
+#chatwidget {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#chatwidget a img {
+    width: 50%;
+    opacity: 0.5;
+}
+
+#chatwidget a img :hover {
+    opacity: 100%;
+}
